@@ -2,7 +2,6 @@ import path from 'path'
 import { createFilter } from '@rollup/pluginutils'
 import { transform } from '@swc/core'
 import { defu } from 'defu'
-// @ts-expect-error missing types
 import { loadTsConfig } from 'load-tsconfig'
 import { createUnplugin } from 'unplugin'
 import { resolveId } from './resolve'

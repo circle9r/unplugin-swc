@@ -1,11 +1,11 @@
 {
-  "name": "unplugin-swc",
-  "version": "0.0.0",
-  "packageManager": "pnpm@8.15.0",
+  "name": "@circle9r/unplugin-swc",
+  "version": "0.0.2",
   "description": "SWC plugin for Vite and Rollup",
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com/"
   },
+  "type": "module",
   "license": "MIT",
   "author": "EGOIST <hi@egoist.dev> (https://github.com/egoist)",
   "contributors": [
